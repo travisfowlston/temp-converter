@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Temp Converter</title>
+  </head>
+  <body>
+    <header>
+      <h1>Temperature Conversion App</h1>
+      <p id="description">
+        The app that converts Fahrenheit to Celsius, or Celsius to Fahrenheit!
+      </p>
+    </header>
+
+    <form>
+      <h2>Temperature conversion:</h2>
+      <input type="number" id="textBox" value="0" /><br />
+
+      <input type="radio" name="unit" id="toFahrenheit" />
+      <label for="toFahrenheit">Celsius ➡ Fahrenheit</label><br />
+
+      <input type="radio" name="unit" id="toCelsius" />
+      <label for="toCelsius">Fahrenheit ➡ Celsius</label><br />
+
+      <button type="button" onclick="convert()">Convert</button>
+      <p id="result"></p>
+    </form>
+
+    <script src="assets/index.js"></script>
+  </body>
+</html>
