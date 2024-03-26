@@ -70,7 +70,7 @@ button {
 }
 
 button:hover {
-  background-color: #025480;
+  background-color: #05a2f6;
   transform: scale(1.05);
   transition: 0s ease-in-out;
 }
